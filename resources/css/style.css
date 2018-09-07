@@ -1641,7 +1641,7 @@ blockquote p > cite {
 
 /*# sourceMappingURL=style.css.map */
 #header_div{
-    background: url(https://www.pureseo.com.au/wp-content/uploads/2017/10/how-to-track-conversions-in-google-analytics.jpg) no-repeat center;
+    background: url(/resources/img/homebg.jpg) no-repeat center;
     display: block;
     height: 700px;
 }
