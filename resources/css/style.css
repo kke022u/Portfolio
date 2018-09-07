@@ -1686,6 +1686,7 @@ blockquote p > cite {
     display: inline-block;
     width: 20%;
 }
+<<<<<<< HEAD
 .HTML {width: 80%; background-color: crimson;}
 .Spring{
     width: 50%; background-color: #2196F3;
@@ -1722,3 +1723,5 @@ blockquote p > cite {
 .C{
       width: 80%; background-color: crimson;
 }
+=======
+>>>>>>> refs/remotes/origin/master
