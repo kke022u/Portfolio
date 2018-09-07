@@ -11,7 +11,8 @@
 *
 * ======================================================= */
 body {
-  font-family: "Merriweather", serif;
+ /*font-family: "Merriweather", serif;*/
+  font-family:  'Nanum Gothic', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -64,7 +65,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -100,7 +101,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 30px 0;
   z-index: 1001;
-  font-family: "Montserrat", sans-serif;
+  font-family:  'Nanum Gothic', sans-serif;
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
@@ -136,7 +137,7 @@ h1, h2, h3, h4, h5, h6, figure {
   list-style: none;
   display: inline;
   line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+  font-family:  'Nanum Gothic', sans-serif;
 }
 .gtco-nav ul li > a {
   text-transform: uppercase;
@@ -440,7 +441,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-top: 20px;
   font-size: 12px;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family:  'Nanum Gothic', sans-serif;
 }
 
 #gtco-footer {
@@ -495,7 +496,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-footer .gtco-footer-link .gtco-list-link li a {
   text-transform: uppercase;
   font-size: 13px !important;
-  font-family: "Montserrat", sans-serif;
+  font-family:  'Nanum Gothic', sans-serif;
 }
 #gtco-footer .gtco-footer-subscribe {
   padding-left: 30px;
@@ -529,7 +530,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
 }
 #gtco-footer .gtco-copyright p {
-  font-family: "Montserrat", sans-serif;
+  font-family:  'Nanum Gothic', sans-serif;
 }
 #gtco-footer .gtco-copyright p:last-child {
   margin-bottom: 0;
@@ -619,7 +620,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   letter-spacing: .05em;
   color: #b3b3b3;
-  font-family: "Montserrat", sans-serif;
+  font-family:  'Nanum Gothic', sans-serif;
   margin-bottom: 10px;
   display: block;
   font-size: 12px;
@@ -879,7 +880,6 @@ blockquote {
   border-left: none;
 }
 blockquote p {
-  font-style: italic;
   color: #000;
 }
 blockquote p > cite {
@@ -1640,3 +1640,49 @@ blockquote p > cite {
 }
 
 /*# sourceMappingURL=style.css.map */
+#header_div{
+    background: url(/resources/img/homebg.jpg) no-repeat center;
+    display: block;
+    height: 700px;
+}
+
+.header_txt1 {
+    font-size: 40px;
+      margin-bottom: 10px;
+      line-height: 1.5;
+      font-weight: 300;
+    color: white;
+}
+.header_txt2 {
+    font-size: 18px;
+  line-height: 1.7;
+    color: white;
+}
+
+.gtco-item img {
+    width: 350px;
+    height: 350px;
+}
+
+.bar_container {
+    display: inline-block;
+  width: 60%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+.bar_div{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.java {width: 50%; background-color: #2196F3;}
+
+.bar_txt{
+    display: inline-block;
+    width: 20%;
+}
