@@ -1723,4 +1723,8 @@ blockquote p > cite {
 .C{
       width: 50%; background-color: #2196F3;
 }
-
+@media screen and (max-width: 768px) {
+    .contextDetail{
+        padding-left: 10%;
+    }
+}
