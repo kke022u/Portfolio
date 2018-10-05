@@ -1724,7 +1724,7 @@ blockquote p > cite {
       width: 50%; background-color: #2196F3;
 }
 @media screen and (max-width: 768px) {
-    #contextDetail{
+    .gtco-section{
         padding-left: 10%;
     }
 }
