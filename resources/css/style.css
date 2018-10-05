@@ -1723,7 +1723,7 @@ blockquote p > cite {
 .C{
       width: 50%; background-color: #2196F3;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
     .gtco-section{
         padding-left: 10%;
     }
